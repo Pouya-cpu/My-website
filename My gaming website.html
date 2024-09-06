@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gaming Hobby</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e1e;
+            color: #f0f0f0;
+        }
+        header {
+            background-color: #2c3e50;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            color: #ecf0f1;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav ul li a:hover {
+            color: #e74c3c;
+        }
+        section {
+            padding: 50px;
+            max-width: 1000px;
+            margin: 100px auto 0;
+        }
+        section h2 {
+            color: #e74c3c;
+            margin-bottom: 20px;
+        }
+        .game {
+            margin-bottom: 40px;
+        }
+        .game img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .game-description {
+            margin-top: 15px;
+        }
+        footer {
+            background-color: #2c3e50;
+            padding: 20px;
+            text-align: center;
+            color: #ecf0f1;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .trailer-btn {
+            background-color: #e74c3c;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .trailer-btn:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Gaming World</h1>
+        <p>Exploring the universe, one game at a time.</p>
+        <nav>
+            <ul>
+                <li><a href="/home/pouya/Desktop/My personal website/Hoi4.html">Hearts of Iron IV</a></li>
+                <li><a href="/home/pouya/Desktop/My personal website/twshogun2.html">Total War: Shogun 2</a></li>
+                <li><a href="/home/pouya/Desktop/My personal website/eu4.html">Europa Universalis IV</a></li>
+                <li><a href="/home/pouya/Desktop/My personal website/ck2.html">Crusader Kings II</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hi, My name is Ali, a passionate gamer with a love for strategy games. I've been playing games ever since i was 5 years old and love sharing my experiences with fellow gamers. Follow along as I dive into reviews, gameplay, and tips for my favorite titles!</p>
+    </section>
+
+    <section>
+        <h2>Favorite Games</h2>
+        <div class="game">
+            <img src="Shogun_2.jpg" alt="Favorite Game 1">
+            <div class="game-description">
+                <h3>Shogun 2</h3>
+                <p>This game is just fantastic. It puts you in medival japan and you can fight as one of 12 rulers listed in the game. Your goal in this game is to defeat other local rulers and become the military ruler of japan</p>
+                <button class="trailer-btn" onclick="watchTrailer('https://www.youtube.com/watch?v=Tnx_Wr5TB5s')">Watch Trailer</button>
+            </div>
+        </div>
+        <div class="game">
+            <img src="Hoi4-logo.png" alt="Favorite Game 2">
+            <div class="game-description">
+                <h3>Hearts of iron IV</h3>
+                <p>This game takes place 3 years before the WWII. You have to choose a nation like germany or USA or Soviets. this game has a good UI design and any history buff will like this game. whether it is to conquer the world as germany or liberate europe as Americans, this game will not dissapoint. </p>
+                <button class="trailer-btn" onclick="watchTrailer('https://www.youtube.com/watch?v=F-uGP2DkZKE')">Watch Trailer</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <p>If you'd like to connect, collaborate, or just chat about gaming, feel free to reach out!</p>
+        <p>Email: <a href="mailto:dev.ali5808@gmail.com">dev.ali5808@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Gaming Hobby | Powered by Passion for Games</p>
+    </footer>
+
+     
+    <script>
+        function watchTrailer(url) {
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>
